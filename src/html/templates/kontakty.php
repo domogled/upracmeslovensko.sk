@@ -25,16 +25,16 @@
                             <div class="col-sm-9">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <img src="/images/d2/EKOSMAK_bily_75x65.png" class="pull-left img-responsive logo" />
+                                        <img src="/images/d2/EKOSMAK_bily_75x65.png" class="pull-left img-responsive logo">
                                         <h4>Spolek Ekosmák</h4>
                                         Březová 6/352
-                                        <br />637 00 Brno
+                                        <br>637 00 Brno
                                     </div>
                                     <div class="col-sm-7">
-                                        <a href="http://www.csop.cz" target="_blank"><img src="/images/d2/CSOP_bily_75x65.png" class="pull-left img-responsive logo" /></a>
+                                        <a href="http://www.csop.cz" target="_blank"><img src="/images/d2/CSOP_bily_75x65.png" class="pull-left img-responsive logo"></a>
                                         <h4>Český svaz ochránců přírody</h4>
                                         Michelská 5
-                                        <br />140 00 Praha 4
+                                        <br>140 00 Praha 4
                                     </div>
                                 </div>
                             </div>
@@ -42,9 +42,9 @@
                              <div class="col-sm-3">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <br />
+                                        <br>
                                         <i class="fa fa-phone fa-lg pull-left"></i> +420 511 110 692
-                                    <br /><br />
+                                    <br><br>
                                         <a href="mailto:2017@uklidmecesko.cz"><i class="fa fa-send fa-lg pull-left"></i> 2017@uklidmecesko.cz</a>
 
                                     </div>
@@ -56,3 +56,6 @@
                         </div>
                     </div>
 </div>
+
+
+

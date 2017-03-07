@@ -1,18 +1,6 @@
+<div class="block">
 
-    <div class="block">
 
-<script>
-        $(function () {
-            $(".block td.text-center").mouseover(function() {
-                $(this).addClass("pulse");
-            });
-            $(".block td.text-center").mouseout(function() {
-                $(this).removeClass("pulse");
-            });
-
-        });
-    </script>
-    
     <script>
         $(function () {
             var images= [
@@ -94,14 +82,44 @@
         });
     </script>
     <div class="row">        
-        <div class="col-lg-5 col-md-6 hidden-sm hidden-xs">
-            <div class="col-xs-12">
-                <h3 class="text-center" style="line-height: 16px; padding-top: 0px; margin-top: 0px; margin-bottom: 20px;" id="fotografie-z-loskch-klid">Fotografie z loňských úklidů</h3>
-            </div>
-            <div id="slider1_container" style="position: relative; top: 25px; left: 0px; width: 400px; height: 220px;">
-                <!-- Slides Container -->
-                <div u="slides" id="slideImages" class="thumbnail" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 400px; height: 220px;">
+        <?php require 'foto_z_lonska.php'; ?>
 
-                </div>
+
+
+        <?php require 'statistika_uklidu.php'; ?>
+
+        <?php require 'soutez_musime_to_uklidit.php'; ?>
+
+
+    </div>
+
+
+
+
+        <div class="row">
+            <?php require 'co_je_noveho.php'; ?>
+
+            <?php require 'medialni_partneri.php'; ?>
+
+            <?php require 'napsali_o_nas.php'; ?>
+
+        </div>
+        <!--
+        <div class="row">
+            <h3 class="text-center" style="line-height: 16px; padding-top: 16px; margin-top: 0px; margin-bottom: 20px;">Chcete nás podpořit?</h3>
+            <div class="col-sm-4 col-sm-offset-2">
+                <iframe
+                    style="width:300px; height:300px; overflow: hidden; border-style:none; "
+                    src="http://www.darujme.cz/dar/widgets/widget.php?widget=859">
+                </iframe>
+            </div>
+            <div class="col-sm-4 text-center">
+            <br />
+            <a href="https://givt.cz/spolek-ekosmak" target="_blank"><img style="padding: 15px;" src="/_cachr/838476286c709986fc4daf32bbe0b3f5a8e776ba.png" /></a>
+            <br /><em>Svým nákupem přes givt přispějete například na pevné pytle na odpad, které poputují dobrovolníkům připraveným přiložit ruku k dílu a přičinit se o čistší a krásnější Česko.</em>
             </div>
         </div>
+        -->
+
+    </div>
+

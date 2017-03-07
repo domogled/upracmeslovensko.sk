@@ -1,10 +1,10 @@
-    <div class="banner">
+<div class="banner">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-xs-12 text-center center-block" style="margin-bottom: 25px; padding-left: 55px;">
                 <a href="/"><img src="/images/2016/USUC_logo_inverse.png" class="img-responsive" style="margin-top: 2px; margin-bottom: 15px;
                 margin-left: auto; margin-right: auto;"></a>
-                <div style="font-size: 1.3em; font-weight: bold; margin-top: 45px; margin-bottom: 5px;">Hlavný úpratovací deň bude
-                 <br />v sobotu 8. dubna 2017.<br />
+                <div style="font-size: 1.3em; font-weight: bold; margin-top: 45px; margin-bottom: 5px;">Hlavní úklidový den bude
+                 <br>v sobotu 8. dubna 2017.<br>
               <!--Některé úklidy se pro vás ale stále chystají.<br />Najdete je v Mapě úklidů.-->
                                 </div>
                 <!--
@@ -76,12 +76,13 @@
             </div>
 
             <div class="col-md-3 hidden-sm hidden-xs">
-                <div style="font-size: 1.1em; font-weight: bold; margin-top: 45px; margin-bottom: 0px; color: #ffffff; text-align: center; line-height: 2.2em;"><span id="countdown"></span><span
-                               id="pocetUklidu"></span></div>
+                <div style="font-size: 1.1em; font-weight: bold; margin-top: 45px; margin-bottom: 0px; color: #ffffff; text-align: center; line-height: 2.2em;">
+<span id="countdown"></span><span id="pocetUklidu"></span>
+</div>
             </div>
             <div class="col-sm-6 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-3 col-md-offset-0">
                 <div class="flex-video thumbnail" style="margin: 0 auto; text-align:center;">
-                    <a href="/map"><img src="/images/mapa-uklidu.jpg"  class="img-responsive" style="position: relative; top: -17px; " alt="Mapa úklidů" title="Mapa úklidů" /></a>
+                    <a href="/map"><img src="/images/mapa-uklidu.jpg" class="img-responsive" style="position: relative; top: -17px; " alt="Mapa úklidů" title="Mapa úklidů"></a>
                     <!-- <div class="flex-video" style="margin: 0 auto; text-align:center;">
                         <iframe allowfullscreen="" src="//www.youtube.com/embed/7LFiUC156GE?feature=player_detailpage&html5=1" frameborder="0"></iframe>
                     </div>
@@ -98,3 +99,6 @@
             -->
         </div>
     </div>
+
+
+    
