@@ -1,16 +1,16 @@
 <div class="content">
 			<div class="container top" style="">
-    <?php require 'banner.php'; ?>
+    <?php require 'index/banner.php'; ?>
 
 
 
-    <?php require 'velke_menu_var_1.php'; ?>
+    <?php require 'index/velke_menu_var_1.php'; ?>
 
 
-            <?php require 'velke_menu_var_2.php'; ?>
+            <?php require 'index/velke_menu_var_2.php'; ?>
 
 
-            <?php require 'velke_menu_var_3.php'; ?>
+            <?php require 'index/velke_menu_var_3.php'; ?>
 
 
 

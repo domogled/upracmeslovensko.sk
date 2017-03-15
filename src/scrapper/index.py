@@ -7,10 +7,11 @@ from index_tpl import create_tpl_for_content
 
 from retrieve_content import retrieve_content
 
+URL_UKLIDME_CESKO_INDEX = 'http://www.uklidmecesko.cz/index.html'
 
 def main():
-    print('*'*45, 'PARSE URL http://www.uklidmecesko.cz/index.html')
-    tree = parse('http://www.uklidmecesko.cz/index.html')
+    print('*'*45, f'PARSE URL {URL_UKLIDME_CESKO_INDEX}', sep = '\n')
+    tree = parse(URL_UKLIDME_CESKO_INDEX)
             
     root = tree.getroot()
 
@@ -44,7 +45,7 @@ def create_tpl_for_body(i, el):
 
     if i == 3:
 
-        move_to_tpl(el, 'menu.php')
+        move_to_tpl(el, 'index/menu.php')
         return
 
     if i == 4:

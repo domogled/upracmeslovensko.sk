@@ -3,16 +3,16 @@
 		<?php require 'content_content.php'; ?>
 
 		<!-- Footer -->
-		<?php require 'content_footer_container.php'; ?>
+		<?php require 'index/content_footer_container.php'; ?>
 <!-- /container -->
-    <?php require 'generalni_partner.php'; ?>
+    <?php require 'index/generalni_partner.php'; ?>
 
     
-<?php require 'kontakty.php'; ?>
+<?php require 'index/kontakty.php'; ?>
 
 
 
-<?php require 'spolufinancovan_MZP.php'; ?>
+<?php require 'index/spolufinancovan_MZP.php'; ?>
 
     
     <!-- Scripts -->

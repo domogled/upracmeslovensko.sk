@@ -5,7 +5,7 @@
 
 	<!-- Menu -->
 
-	<?php require 'menu.php'; ?>
+	<?php require 'index/menu.php'; ?>
 
 
 	<!-- Content -->

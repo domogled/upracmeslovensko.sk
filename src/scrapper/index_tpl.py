@@ -26,7 +26,7 @@ def create_tpl_for_content(i, element):
             return
 
         if i == 3:
-            move_to_tpl(element, 'content_footer_container.php')
+            move_to_tpl(element, 'index/content_footer_container.php')
             return
 
         if i == 4:
@@ -34,15 +34,15 @@ def create_tpl_for_content(i, element):
             return
 
         if i == 5:
-            move_to_tpl(element, 'generalni_partner.php')
+            move_to_tpl(element, 'index/generalni_partner.php')
             return
 
         if i == 6:
-            move_to_tpl(element, 'kontakty.php')
+            move_to_tpl(element, 'index/kontakty.php')
             return
 
         if i == 7:
-            move_to_tpl(element, 'spolufinancovan_MZP.php')
+            move_to_tpl(element, 'index/spolufinancovan_MZP.php')
             return
 
         if i == 8:
@@ -74,12 +74,12 @@ def create_tpl_for_content_content(i, element):
     
             
     if i == 0:
-        move_to_tpl(element, 'banner.php')
+        move_to_tpl(element, 'index/banner.php')
         return
 
 
     if i >= 1 and i <= 3:
-        move_to_tpl(element, f'velke_menu_var_{i}.php')
+        move_to_tpl(element, f'index/velke_menu_var_{i}.php')
         return
 
     if i == 4:
@@ -130,29 +130,29 @@ def create_tpl_for_content_content_block(i, element):
 def create_tpl_for_content_content_block_row_1(i, element):
    
     if i == 0:
-        move_to_tpl(element, 'foto_z_lonska.php')
+        move_to_tpl(element, 'index/foto_z_lonska.php')
         # element.drop_tree()
         return
 
     if i == 1:
-        move_to_tpl(element, 'statistika_uklidu.php')
+        move_to_tpl(element, 'index/statistika_uklidu.php')
         return
 
     if i == 2:
-        move_to_tpl(element, 'soutez_musime_to_uklidit.php')
+        move_to_tpl(element, 'index/soutez_musime_to_uklidit.php')
         return
 
 @tpl   
 def create_tpl_for_content_content_block_row_2(i, element):
     
     if i == 0:
-        move_to_tpl(element, 'co_je_noveho.php')
+        move_to_tpl(element, 'index/co_je_noveho.php')
         return
 
     if i == 1:
-        move_to_tpl(element, 'medialni_partneri.php')
+        move_to_tpl(element, 'index/medialni_partneri.php')
         return
 
     if i == 2:
-        move_to_tpl(element, 'napsali_o_nas.php')
+        move_to_tpl(element, 'index/napsali_o_nas.php')
         return

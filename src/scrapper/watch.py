@@ -13,7 +13,7 @@ from watchdog.events import LoggingEventHandler, FileSystemEventHandler, Pattern
 class UklidmeCesko_Handler(PatternMatchingEventHandler):
     
     def __init__(self):
-        super().__init__(patterns=['*.py', '*.php'], ignore_patterns=['*__pycache__', '*.pyc'], ignore_directories=False, case_sensitive=True)
+        super().__init__(patterns=['*.py', '*.php'], ignore_patterns=['__pycache__', '*.pyc'], ignore_directories=True, case_sensitive=True)
 
     # def dispatch(self, event):
     #     print('dispatch', event)
@@ -23,22 +23,8 @@ class UklidmeCesko_Handler(PatternMatchingEventHandler):
         print('any event', event)
 
 my_event_handler = UklidmeCesko_Handler()
-# def my_event_handler(*args, **kwargs):
-#     print(args, kwargs)
 
-URL_UKLIDME_CESKO_INDEX = 'http://www.uklidmecesko.cz/index.html'
-
-# def parse_url(path):
-#     def w
-
-# @parse_url(URL_UKLIDME_CESKO_INDEX)
-def parse_index(url):
-    print(f'PARSE URL {url}')
-
-    from utils import parse
-    from index import main
-
-    main()
+from index import main as parse_index
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
@@ -52,7 +38,7 @@ if __name__ == "__main__":
     observer.add_handler_for_watch(event_handler, w)
     observer.start()
 
-    parse_index(URL_UKLIDME_CESKO_INDEX)
+    parse_index()
 
     try:
         while True:

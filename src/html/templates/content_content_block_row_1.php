@@ -1,11 +1,11 @@
 <div class="row">        
-        <?php require 'foto_z_lonska.php'; ?>
+        <?php require 'index/foto_z_lonska.php'; ?>
 
 
 
-        <?php require 'statistika_uklidu.php'; ?>
+        <?php require 'index/statistika_uklidu.php'; ?>
 
-        <?php require 'soutez_musime_to_uklidit.php'; ?>
+        <?php require 'index/soutez_musime_to_uklidit.php'; ?>
 
 
     </div>
