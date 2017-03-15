@@ -37,25 +37,16 @@ server {
 	root <?php echo $devel_root_directory ?>;
 
 	# Add index.php to the list if you are using PHP
-	index index.html index.php index.htm index.nginx-debian.html;
+	index index.php index.html index.htm index.nginx-debian.html;
 
 	server_name <?php echo $devel_server_name ?>;
 
-	location / {
-
-			rewrite ^(/.*[^/])\.(html|php)$ $1/ permanent;
-			rewrite ^(/.*[^/])(?!/)$ $1/ permanent;
-
-
-			try_files $uri $uri.html $uri.php =404;
-			# $uri/ @extensionless-html;
-			index index.html index.php;
-
-	}
-
-	location @extensionless-html {
-		rewrite ^(.*)/$ $1.html last;
-	}
+	#location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+	#	try_files $uri $uri/ =404;
+	#	autoindex on;
+	#}
 
 
 	location = /favicon.ico {
@@ -67,6 +58,12 @@ server {
                 allow all;
                 log_not_found off;
                 access_log off;
+        }
+
+        location / {
+                # This is cool because no php is touched for static content.
+                # include the "?$args" part so non-default permalinks doesn't break when using query string
+                try_files $uri $uri/ /index.php?$args;
         }
 
 	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000

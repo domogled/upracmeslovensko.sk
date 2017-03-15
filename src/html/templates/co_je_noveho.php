@@ -328,6 +328,17 @@
                     
                      
                 
+                     
+                    
+                    
+                     
+                    
+                    
+                    
+                     
+                
+                 
+                        <strong>8.3.2017</strong> <strong><a href="/news/58c043742918448d308b456a">Úklid bude za měsíc a je nás 1 000!</a></strong><br>
                  
                         <strong>4.3.2017</strong> <strong><a href="/news/58b9516e291844696f8b4572">Trika budou :-)</a></strong><br>
                  
@@ -342,8 +353,6 @@
                         <strong>8.1.2017</strong> <strong><a href="/news/587dfb892918447d128b4567">Ukliďme svět, ukliďme Česko letos s významnou podporou MŽP</a></strong><br>
                  
                         <strong>8.12.2016</strong> <strong><a href="/news/5849225b291844e87e8b456b">Symbolické zakončení sezóny</a></strong><br>
-                 
-                        <strong>29.11.2016</strong> <strong><a href="/news/583d4ee8291844cd488b4570">Poslední letošní úklid</a></strong><br>
                  
                 <a href="/news/"><button type="button" class="btn btn-default btn-xs pull-right" style="margin-right: 25px; margin-top: 12px;">
                    další aktuality <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>

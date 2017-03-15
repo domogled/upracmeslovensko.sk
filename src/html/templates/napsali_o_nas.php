@@ -5,38 +5,111 @@
                       
                       
                           
-                                <strong>28.2.2017</strong> <strong>
-                                Ústí chystá velký jarní úklid</strong><br><em>tisk: Ústecký deník (str. 2)</em><br>
+                                <strong>14.3.2017</strong> <strong><a href="http://www.mmdecin.cz/obcan/zpravodajstvi/zpravy-z-radnice/item/1967-zapojte-se-do-celorepublikove-akce-uklidme-cesko" target="_blank">Zapojte se do celorepublikové akce</a></strong><br><em>web: mmdecin.cz</em><br>
                           
                       
                   
                       
                       
                           
-                                <strong>27.2.2017</strong> <strong><a href="http://breclavsky.denik.cz/z-regionu/cerne-skladky-pomahaji-kamery-i-fotopasti-20170227.html" target="_blank">Černé skládky? Pomáhají kamery i fotopasti</a></strong><br><em>web: breclavsky.denik.cz</em><br>
+                                <strong>14.3.2017</strong> <strong><a href="http://moderniobec.cz/uz-za-mesic-propukne-velky-uklid-ceska-pridejte-se-take/" target="_blank">Známe vítěze soutěže DOODPADU. Přehrajte si spolu s námi videoklip, s nímž triumfoval v republikovém finále!</a></strong><br><em>web: moderniobec.cz</em><br>
                           
                       
                   
                       
                       
                           
-                                <strong>27.2.2017</strong> <strong><a href="http://www.bydlet.cz/418077-ekologie-kolem-nas-sklenik-make-up-i-elektrokolobezka/" target="_blank">Ekologie kolem nás: skleník, make-up i elektrokoloběžka</a></strong><br><em>web: bydlet.cz</em><br>
+                                <strong>9.3.2017</strong> <strong><a href="http://www.enviweb.cz/rss/zemedelstvi/139572/presne-za-mesic-se-chysta-velky-uklid-ceska-pridejte-se-take?utm_source=rss&utm_medium=rss&utm_campaign=rss_clankyall" target="_blank">Přesně za měsíc se chystá velký úklid Česka, přidejte se také!</a></strong><br><em>web: enviweb.cz</em><br>
                           
                       
                   
                       
                       
                           
-                                <strong>27.2.2017</strong> <strong>
-                                Černé skládky: pomáhají kamery nebo fotopasti</strong><br><em>tisk: Deník (Jihomoravský kraj 6 mutací) (str. 3)</em><br>
+                                <strong>9.3.2017</strong> <strong><a href="http://www.vodainfo.cz/do-uklidu-zbyva-mesic-a-je-nas-tisic/" target="_blank">Do úklidu zbývá měsíc a je nás tisíc!</a></strong><br><em>web: vodainfo.cz</em><br>
                           
                       
                   
                       
                       
                           
-                                <strong>27.2.2017</strong> <strong><a href="http://ekolist.cz/cz/zpravodajstvi/zpravy/musime-to-uklidit-zni-od-ochrancu" target="_blank">"Musíme to uklidit!" zní od ochránců</a></strong><br><em>web: ekolist.cz</em><br>
+                                <strong>9.3.2017</strong> <strong><a href="http://www.nazeleno.cz/aktualne/za-mesic-se-bude-uklizet-cesko-pridejte-se.aspx" target="_blank">Aktuálně: Za měsíc se bude uklízet Česko. Přidejte se</a></strong><br><em>web: nazeleno.cz</em><br>
                           
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
+                      
+                  
+                      
                       
                   
                       

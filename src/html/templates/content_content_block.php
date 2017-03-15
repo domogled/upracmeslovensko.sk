@@ -81,29 +81,14 @@
             var jssor_slider1 = new $JssorSlider$('slider1_container', options);
         });
     </script>
-    <div class="row">        
-        <?php require 'foto_z_lonska.php'; ?>
-
-
-
-        <?php require 'statistika_uklidu.php'; ?>
-
-        <?php require 'soutez_musime_to_uklidit.php'; ?>
-
-
-    </div>
+    <?php require 'content_content_block_row_1.php'; ?>
 
 
 
 
-        <div class="row">
-            <?php require 'co_je_noveho.php'; ?>
 
-            <?php require 'medialni_partneri.php'; ?>
+        <?php require 'content_content_block_row_2.php'; ?>
 
-            <?php require 'napsali_o_nas.php'; ?>
-
-        </div>
         <!--
         <div class="row">
             <h3 class="text-center" style="line-height: 16px; padding-top: 16px; margin-top: 0px; margin-bottom: 20px;">Chcete nás podpořit?</h3>

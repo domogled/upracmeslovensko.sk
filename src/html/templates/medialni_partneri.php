@@ -1,6 +1,6 @@
 <div class="col-md-6 col-md-offset-0" style="padding: 20px;">
                 <div class="flex-video" style="margin: 0 auto; text-align:center;">
-                    <iframe allowfullscreen="" src="//www.youtube.com/embed/jKtlME-8cXA?feature=player_detailpage&html5=1" frameborder="0"></iframe>
+                    <iframe allowfullscreen="" src="//www.youtube.com/embed/o8DjMpe9KpM?feature=player_detailpage&html5=1" frameborder="0"></iframe>
                 </div>
 
 <!--
@@ -9,6 +9,16 @@
                     <div class="carousel-inner" style="height: 210px; margin-top: 22px;">
                          
                          
+                                 
+                        
+                                 
+                        
+                                 
+                        
+                                 
+                        
+                                 
+                        
                                  
                         
                                  
@@ -565,6 +575,8 @@
                             
                                  
                             
+                                 
+                            
                                 
                                     <div class="item active"><a href="http://www.denik.cz/" target="_blank"><img src="/_cachr/21f7f86ce684d35d66ac01ba7e2c6d0a731798d7.jpg" title="VLTAVA-LABE-PRESS, a.s. – Vydavatelství, jež v České republice vydává devadesát čtyři regionálních titulů, z toho 71 regionálních deníků, 23 týdeníků."></a></div>
                                      
@@ -639,6 +651,11 @@
                             
                                 
                                     <div class="item "><a href="http://3artfestival.cz/" target="_blank"><img src="/_cachr/22aa530aa9fe0126fc321c91a609bc1243bb6143.jpg" title="3ARTBEAT festival – 3ART festival je projekt, jehož cílem je vytvořit v Ostravě jedinečný každoroční festival, který bude první svého druhu v ČR"></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.pvl.cz/" target="_blank"><img src="/_cachr/68a58c51f69dff8113508f746d486e426106d0cf.png" title="Povodí Vltavy, s.p. – Podnik podporuje úklidy na řekách. Kromě skce Ukliďme svět, ukliďme Česko podporuje také akce Čistá řeka Sázava, Čistá Berounka a další."></a></div>
                                      
                                  
                             
@@ -995,6 +1012,8 @@
                             
                                  
                             
+                                 
+                            
                                 
                                     <div class="item "><a href="http://www.adam.cz/" target="_blank"><img src="/_cachr/ee1cdfab92be7eb0307fc97ec307251b7ca2d4e0.png" title="Adam.cz – Aktuálně ze světa dětí a mládeže."></a></div>
                                      
@@ -1266,7 +1285,7 @@
                                  
                             
                                 
-                                    <div class="item "><a href="www.frankbold.org" target="_blank"><img src="/_cachr/0a3132d7da03d7588e5aa35d527091b1c0878e7c.png" title="Frank Bold – Budoucnost potřebuje svobodnou společnost a odpovědné firmy. My pomáháme oběma. Právem."></a></div>
+                                    <div class="item "><a href="http://www.frankbold.org" target="_blank"><img src="/_cachr/0a3132d7da03d7588e5aa35d527091b1c0878e7c.png" title="Frank Bold – Budoucnost potřebuje svobodnou společnost a odpovědné firmy. My pomáháme oběma. Právem."></a></div>
                                      
                                  
                             
@@ -1406,6 +1425,42 @@
                                  
                             
                                  
+                            
+                                
+                                    <div class="item "><a href="http://www.neziskovky.cz/" target="_blank"><img src="/_cachr/ef46ae33d3e9a60ad61db75e635c9987f2d9de52.jpg" title="Neziskovky.cz – Podáváme pomocnou ruku."></a></div>
+                                     
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.kct.cz/cms/" target="_blank"><img src="/_cachr/b7957b718b4320e9a0d7977b2681bce76d4a4f3e.jpg" title="Klub českých turistů – Organizace zajišťující značení turistických tras, vydávání turistických map."></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://mhj.cz/" target="_blank"><img src="/_cachr/00509a3789551fed6bb9c5584fab41461954ca06.jpg" title="Moravská hasičská jednota – Moravská hasičská jednota je spolek, sdružující dobrovolné hasiče především na Jižní Moravě."></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.weefsworld.eu/" target="_blank"><img src="/_cachr/03de5820e237cdd64859b5a46fb80a44c183e5e6.jpg" title="Weef's World – Travel & Lifestyle Blog by Weef"></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.katyd.cz/" target="_blank"><img src="/_cachr/741ca63282b47bd163621ea4fe7ccf982fdba341.png" title="Katolický týdeník – Katolický týdeník informuje o dění v katolické církvi v ČR a ve světě."></a></div>
+                                     
+                                 
+                            
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.zoo-ostrava.cz/" target="_blank"><img src="/_cachr/3c7819d2317544bd88761e6d8730640f99e38487.jpg" title="Zoo Ostrava – Ostravská Zoo, to je příroda na dosah."></a></div>
+                                     
+                                 
                              
                         </div> 
                         <a class="carousel-control left" href="#this-carousel-id1" data-slide="prev">‹</a>
@@ -1441,6 +1496,11 @@
                             
                                 
                                     <div class="item "><a href="http://www.lesycr.cz/" target="_blank"><img src="/_cachr/1d730f86212d50a52e8eef823f42cbf2656ef1d1.jpg" title="Lesy České republiky, s.p. – Podnik je partnerem akce Ukliďme svět, ukliďme Česko 2017"></a></div>
+                                        
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.pvl.cz/" target="_blank"><img src="/_cachr/68a58c51f69dff8113508f746d486e426106d0cf.png" title="Povodí Vltavy, s.p. – Podnik podporuje úklidy na řekách. Kromě skce Ukliďme svět, ukliďme Česko podporuje také akce Čistá řeka Sázava, Čistá Berounka a další."></a></div>
                                         
                                  
                             
@@ -1622,6 +1682,8 @@
                             
                                  
                             
+                                 
+                            
                                 
                                     <div class="item "><a href="http://www.kaiserservis.cz/" target="_blank"><img src="/_cachr/d0c71cdf37d9efe7c4f356cb7adbb3a4979380f4.jpg" title="Kaiser servis, spol. s r.o. – Likvidujeme odpad firmám, živnostníkům, obcím i úřadům"></a></div>
                                         
@@ -1666,6 +1728,8 @@
                                 
                                     <div class="item "><a href="http://www.asekol.cz/" target="_blank"><img src="/_cachr/610ad391d309b513e8202579e731ad059b02ec9d.jpg" title="Asekol a.s. – Společnost poskytuje data o červených kontejnerech a sběrných dvorech"></a></div>
                                         
+                                 
+                            
                                  
                             
                                  
@@ -2091,6 +2155,27 @@
                                 
                                     <div class="item "><a href="http://www.opzp.cz/" target="_blank"><img src="/_cachr/dd20daaaad7eb6e8cffa9c5fbbbcdf58c14ec360.png" title="Operační program Životní prostředí – Poskytnutí 4 000 párů pracovních rukavic"></a></div>
                                         
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.potiskpasek.cz/" target="_blank"><img src="/_cachr/a0d3bb65ad0376a68d3d49b83f3793870ba0ab62.jpg" title="potisk pásek s.r.o.  – Společnost poskytla 30% slevu na potištění lepicí pásky na balíky."></a></div>
+                                        
+                                 
+                            
+                                 
+                            
                                  
                             
                                  

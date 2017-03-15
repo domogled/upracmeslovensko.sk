@@ -25,7 +25,8 @@ def retrieve_content(element, destination_dir):
         # tag = link[0].tag
 
         if el.tag == 'a':
-            return
+            print(link[1], link[2])
+            continue
 
         retrive_link(el, link[2], destination_dir)
 
@@ -74,7 +75,7 @@ def retrieve_css_content(css_destination, url_path, destination_dir, base_url):
                         # print(css_destination)
                         # print(css_destination.parent)
                         # print(token.value)
-                        destination = css_destination.parent.joinpath(token.value).resolve()
+                        destination = css_destination.parent.joinpath(token.value) #.resolve()
                         zdroj = Path(url_path.lstrip('/')).parent.joinpath(token.value) #.resolve()
                         zdroj = urljoin(base_url, str(zdroj))
                         # print(zdroj, destination)

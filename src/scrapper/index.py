@@ -7,20 +7,35 @@ from index_tpl import create_tpl_for_content
 
 from retrieve_content import retrieve_content
 
-tree = parse('http://www.uklidmecesko.cz/index.html')
-        
-root = tree.getroot()
 
-body = root.find('body')
-# print(body)
+def main():
+    print('*'*45, 'PARSE URL http://www.uklidmecesko.cz/index.html')
+    tree = parse('http://www.uklidmecesko.cz/index.html')
+            
+    root = tree.getroot()
 
-assert len(body) == 6
+    body = root.find('body')
+    # print(body)
 
-@tpl
-def create_tpl_for_main(i, el):
+    assert len(body) == 6
+
+    from shutil import rmtree
+    rmtree(HTML_DIR)
+
+    retrieve_content(root, HTML_DIR)
+
+    create_tpl_for_body(body)
+
+    save_tpl(root, 'main.php')
+
+    # vycisti(root)
     
 
-    print(f'#{i}: {str_element(el)}')
+@tpl
+def create_tpl_for_body(i, el):
+    
+
+    # print(f'#{i}: {str_element(el)}')
 
     if i == 2:
         # MENU
@@ -54,9 +69,8 @@ def vycisti(el):
         vycisti(child)
 
 
-retrieve_content(root, HTML_DIR)
+if __name__ == "__main__":
+    
+    main()
 
-
-create_tpl_for_main(body, root)
-
-# vycisti(root)
+    

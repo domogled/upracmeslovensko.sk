@@ -7,7 +7,6 @@ import functools
 
 HTML_DIR = Path(__file__).parents[2] / 'html'
 TPL = HTML_DIR / 'templates'
-TPL.mkdir(parents=True, exist_ok=True)
 
 def parse(file):
     
@@ -42,6 +41,7 @@ def tostring(element):
 
 def save_tpl(element, file_name):
     tpl_path = TPL / file_name
+    tpl_path.parent.mkdir(parents=True, exist_ok=True)
 
     tpl_content = tostring(element)
 
@@ -54,11 +54,16 @@ def move_to_tpl(element, file_name):
     previous = element.getprevious()   
 
     php_script = f"<?php require '{file_name}'; ?>\n"
-
+    # print("php_script = ", php_script)
+    
     if previous is not None:
         previous.tail = (previous.tail or '') + php_script
+        # print("previous.tail = ", previous.tail)
     else:
+            
         parent.text = (parent.text or '') + php_script
+        # print("parent.text = ", parent.text)
+            
 
     save_tpl(element, file_name)
     element.drop_tree()
@@ -91,15 +96,15 @@ def tpl(function):
         print(function.__name__)
 
         for i, child in enumerate(element):
-            print(f'#{i}: {str_element(child)}')
+            # print(f'#{i}: {str_element(child)}')
             function(i, child)
 
         name = function.__name__
         assert name.startswith(PREFIX)
         tpl_name = name[len(PREFIX):]
-        print(tpl_name)
+        # print(tpl_name)
         tpl_file_name = f'{tpl_name}.php'
-        save_tpl(write_other, tpl_file_name)
+        move_to_tpl(write_other, tpl_file_name)
         
         
     return wrapper
