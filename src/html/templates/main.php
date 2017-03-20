@@ -1,33 +1,32 @@
-<html lang="cs" xmlns:fb="http://www.facebook.com/2008/fbml">
-<head>
+<html lang="cs" xmlns:fb="http://www.facebook.com/2008/fbml"><?php require(__dir__ . "/../lib/locale.php"); ?><head>
 	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-type" content='<?php echo _("text/html; charset=utf-8"); ?>'>
 
 	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
 		 More info: h5bp.com/i/378 -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content='<?php echo _("IE=edge,chrome=1"); ?>'>
 
 	<!-- Our site title and description -->
 	<title>Zapojte se také do úklidové akce! | Ukliďme svět, ukliďme Česko</title>
-	<meta name="description" content="Cílem akce je nejen uklidit naše okolí, ale i ve společné věci zapojit různé zájmové skupiny lidí, školy, firmy, státní správu i jednotlivce a také mediálně zviditelnit dlouhodobě neřešenou problematiku černých skládek.">
-	<meta name="keywords" content="mapování,černé skládky,úklid,dobrovolník,odpady,samospráva,radnice,starosta">
-	<meta name="author" content="Miroslav Kubásek">
+	<meta name="description" content='<?php echo _("Cílem akce je nejen uklidit naše okolí, ale i ve společné věci zapojit různé zájmové skupiny lidí, školy, firmy, státní správu i jednotlivce a také mediálně zviditelnit dlouhodobě neřešenou problematiku černých skládek."); ?>'>
+	<meta name="keywords" content='<?php echo _("mapování,černé skládky,úklid,dobrovolník,odpady,samospráva,radnice,starosta"); ?>'>
+	<meta name="author" content='<?php echo _("Miroslav Kubásek"); ?>'>
 
 	<!-- Output DocPad produced meta elements -->
-	<meta name="generator" content="DocPad v6.69.2">
+	<meta name="generator" content='<?php echo _("DocPad v6.69.2"); ?>'>
 
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content='<?php echo _("width=device-width"); ?>'>
 
-	    <meta property="og:title" content="Ukliďme svět, ukliďme Česko 2017!">
-        <meta property="og:description" content="Cílem akce je uklidit černé skládky a drobný nepořádek z přírody i našeho okolí. Společně, v jeden den, sobotu 8.4.2017. Již nyní se můžete zaregistrovat jako dobrovolníci, nebo jako organizátoři úklidu. Pojďte do toho s námi!">
-        <meta property="og:site_name" content="Ukliďme svět, ukliďme Česko">
-        <meta property="og:url" content="http://www.uklidmecesko.cz/">
-        <meta property="og:image" content="http://www.uklidmecesko.cz/images/facebook-musimetouklidit.jpg">
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="cs_CZ">
-        <meta property="fb:app_id" content="1602093326703341">
+	    <meta property="og:title" content='<?php echo _("Ukliďme svět, ukliďme Česko 2017!"); ?>'>
+        <meta property="og:description" content='<?php echo _("Cílem akce je uklidit černé skládky a drobný nepořádek z přírody i našeho okolí. Společně, v jeden den, sobotu 8.4.2017. Již nyní se můžete zaregistrovat jako dobrovolníci, nebo jako organizátoři úklidu. Pojďte do toho s námi!"); ?>'>
+        <meta property="og:site_name" content='<?php echo _("Ukliďme svět, ukliďme Česko"); ?>'>
+        <meta property="og:url" content='<?php echo _("http://www.uklidmecesko.cz/"); ?>'>
+        <meta property="og:image" content='<?php echo _("http://www.uklidmecesko.cz/images/facebook-musimetouklidit.jpg"); ?>'>
+        <meta property="og:type" content='<?php echo _("website"); ?>'>
+        <meta property="og:locale" content='<?php echo _("cs_CZ"); ?>'>
+        <meta property="fb:app_id" content='<?php echo _("1602093326703341"); ?>'>
 
         <!-- <link rel="canonical" href="http://www.uklidmecesko.cz/"> -->
         <link rel="image_src" href="http://www.uklidmecesko.cz/images/logo-akce-big2.png">
@@ -87,7 +86,7 @@
     window._fbq = window._fbq || [];
     window._fbq.push(['track', 'PixelInitialized', {}]);
     </script>
-    <meta name="google-site-verification" content="EoibR4mxg3qPtHWv8mQExIShLp6NHHo37_vIwW563OE">
+    <meta name="google-site-verification" content='<?php echo _("EoibR4mxg3qPtHWv8mQExIShLp6NHHo37_vIwW563OE"); ?>'>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
     <link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
 
@@ -101,6 +100,56 @@
     </script>
 
 </head>
-<?php require 'body.php'; ?>
+<body>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=608183612624786&ev=PixelInitialized"></noscript>
+<!-- <img src="http://mautic.e-pro.cz/mtracking.gif?tags=UklidmeCesko" style="display: none;" /> -->
 
+
+	<!-- Menu -->
+
+	<?php require 'index/menu.php'; ?>
+
+
+	<!-- Content -->
+	<div class="container">
+		<!-- Content -->
+		<?php require 'index/content_content.php'; ?>
+
+		<!-- Footer -->
+		<?php require 'index/content_footer_container.php'; ?>
+<!-- /container -->
+    <?php require 'index/generalni_partner.php'; ?>
+
+    
+<?php require 'index/kontakty.php'; ?>
+
+
+
+<?php require 'index/spolufinancovan_MZP.php'; ?>
+
+    
+    <!-- Scripts -->
+    <script defer src="/scripts/script.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-352014-31', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+	<div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=124942087606035";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+</div>
+</body>
 </html>

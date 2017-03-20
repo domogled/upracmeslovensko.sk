@@ -26,7 +26,7 @@
 
         });
     </script>
-    <?php require 'content_content_block.php'; ?>
+    <?php require 'index/content_content_block.php'; ?>
 
 </div>
 		</div>

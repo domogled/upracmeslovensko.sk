@@ -8,6 +8,60 @@ import functools
 HTML_DIR = Path(__file__).parents[2] / 'html'
 TPL = HTML_DIR / 'templates'
 
+from db.texty_preklad import collection as db_texty
+
+def find_tree(element):
+    for child in element:
+        yield child
+        for sub in find_tree(child):
+            yield sub
+
+
+
+def dej_metatexty(el):
+    
+    for meta in el.head.findall('meta'):
+        # assert 'value' in meta.attrib
+        
+        assert(len(meta.attrib) == 2 or len(meta.attrib) == 1)
+        if(len(meta.attrib) == 1):
+            # print(meta.attrib.keys())
+            continue
+
+        content = meta.attrib['content']
+
+        def occurrence():
+            keys = meta.attrib.keys()
+            for key in ['property', 'name']:
+                if key in keys:
+                    return f'{key}::{meta.attrib[key]}'
+            return 'UNKNOWN'
+    
+
+        _key = f'META {occurrence()}'.replace(' ', '_')
+
+        try:
+            doc = db_texty.fetchDocument(_key)
+        except KeyError as e:
+            doc = db_texty.createDocument({'_key': _key})
+            # doc['_key'] = _key
+
+        doc['cs_CZ'] = content
+        doc['sk'] = ''
+        print(doc)
+        doc.save()
+        # entry = (
+        #     msgid=content,
+        #     msgstr='',
+        #     # occurrences=[('welcome.py', '12'), ('anotherfile.py', '34')]
+        #     occurrences=[(f'{occurrence()}', '0')]
+        # )
+
+        meta.attrib['content'] = f'<?php echo _("{content}"); ?>'
+        print(meta.attrib.keys())
+        print(str_element(meta))
+
+
 def parse(file):
     
     # je potřeb audělat si vlastní parser, jinak si vyláme zuby na neuzavřených elementech link
@@ -47,13 +101,13 @@ def save_tpl(element, file_name):
 
     tpl_path.write_text(tpl_content)
 
-def move_to_tpl(element, file_name):
+def move_to_tpl(element, file_name, require = True):
 
     parent = element.getparent()
 
     previous = element.getprevious()   
-
-    php_script = f"<?php require '{file_name}'; ?>\n"
+    
+    php_script = f"<?php {'' if require else '// '}require '{file_name}'; ?>\n"
     # print("php_script = ", php_script)
     
     if previous is not None:
@@ -75,7 +129,7 @@ def open_and_exit(element, tpl_file):
 
     print(tpl_file)
     print(str_element(element))
-    url = f'http://localhost/upracmeslovensko.sk/src/html/templates/{tpl_file}'
+    url = f'http://upracmeslovensko.dev/templates/{tpl_file}'
     # print(url)
     browser.open_new_tab(url)
     exit()
@@ -84,27 +138,3 @@ def dmove_to_tpl(element, tpl_file):
     move_to_tpl(element, tpl_file)
     open_and_exit(element, tpl_file)
 
-PREFIX = 'create_tpl_for_'
-
-def tpl(function):
-    
-    @functools.wraps(function)
-    def wrapper(element, write_other = None):
-        if write_other is None:
-            write_other = element
-
-        print(function.__name__)
-
-        for i, child in enumerate(element):
-            # print(f'#{i}: {str_element(child)}')
-            function(i, child)
-
-        name = function.__name__
-        assert name.startswith(PREFIX)
-        tpl_name = name[len(PREFIX):]
-        # print(tpl_name)
-        tpl_file_name = f'{tpl_name}.php'
-        move_to_tpl(write_other, tpl_file_name)
-        
-        
-    return wrapper

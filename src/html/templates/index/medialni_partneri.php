@@ -327,6 +327,8 @@
                         
                                  
                         
+                                 
+                        
                                 
                                     <div class="item active">
                                         <div style="" class="row">
@@ -1234,10 +1236,6 @@
                             
                                  
                             
-                                 
-                            
-                                 
-                            
                                 
                                     <div class="item "><a href="http://avonet.cz/" target="_blank"><img src="/_cachr/2c118845180a2f80d443da58f69afb2564d0670e.png" title="Avonet, s.r.o. – Přední poskytovatel internetových služeb ve Zlínském kraji. "></a></div>
                                      
@@ -1460,6 +1458,39 @@
                                 
                                     <div class="item "><a href="http://www.zoo-ostrava.cz/" target="_blank"><img src="/_cachr/3c7819d2317544bd88761e6d8730640f99e38487.jpg" title="Zoo Ostrava – Ostravská Zoo, to je příroda na dosah."></a></div>
                                      
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.hkinfo.cz/" target="_blank"><img src="/_cachr/acdee3f4bfc1dcddbbda11d8fdd1866b2f7efdfe.png" title="Infocentrum Hradec Králové – Městské Infocentrum Hradec Králové pro občany města."></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.osel.cz/" target="_blank"><img src="/_cachr/dadab867b8b30debf27889ea3e5f433c8d45060d.png" title="OSEL – OSEL (Objective Source E- Learning) je internetový časopis pro popularizaci vědy"></a></div>
+                                     
+                                 
+                            
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.nazeleno.cz/" target="_blank"><img src="/_cachr/1a721158f9fe956d4394d739adc44f3ce23d9ed4.png" title="NaZeleno – Chytrá řešení pro každého"></a></div>
+                                     
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://www.narrativemedia.cz/" target="_blank"><img src="/_cachr/4530849d0f52cc1606d5d8faf1f303c527c0d828.png" title="Narrative Media – Kreativní obsahová agentura"></a></div>
+                                     
+                                 
+                            
+                                 
+                            
+                                
+                                    <div class="item "><a href="http://praha2.zeleni.cz" target="_blank"><img src="/_cachr/9e515ef8e1336fb73f4211e38a49deb1519de346.png" title="Strana zelených Praha 2 – Hledáme rovnováhu mezi člověkem, společností, městem a přírodou."></a></div>
+                                     
+                                 
+                            
+                                 
+                            
                                  
                              
                         </div> 
@@ -1714,6 +1745,9 @@
                                         
                                  
                             
+                                
+                                    <div class="item "><a href="http://www.sako.cz/" target="_blank"><img src="/_cachr/b22faa3444833ee26ac0cff7f87f11865c4f734a.jpg" title="SAKO BRNO a.s. – Společnost zajistí odvoz a likvidaci odpadů z MČ v Brně a dodá rukavice a pytle pro úklidy, které budou probíhat v Brně."></a></div>
+                                        
                                  
                             
                                 
@@ -2083,10 +2117,6 @@
                             
                                  
                             
-                                 
-                            
-                                 
-                            
                                 
                                     <div class="item "><a href="http://www.reda.cz" target="_blank"><img src="/_cachr/af22ffebd8c3a9902ee57e9b342d78f78c25f625.png" title="REDA, a.s. – Firma se zabývá výrobou, prodejem a potiskem reklamních a dárkových předmětů, které nám poskytne v hodnotě 5000,- Kč."></a></div>
                                         
@@ -2172,6 +2202,24 @@
                                 
                                     <div class="item "><a href="http://www.potiskpasek.cz/" target="_blank"><img src="/_cachr/a0d3bb65ad0376a68d3d49b83f3793870ba0ab62.jpg" title="potisk pásek s.r.o.  – Společnost poskytla 30% slevu na potištění lepicí pásky na balíky."></a></div>
                                         
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
+                                 
+                            
                                  
                             
                                  

@@ -4,7 +4,6 @@ from urllib.request import urlopen, urlretrieve
 
 import tinycss
 
-SOURCE_URL = "http://www.uklidmecesko.cz"
 from utils import *
 
 def _retrieve(zdroj, cil):
@@ -46,7 +45,12 @@ def retrive_link(el, url_path, destination_dir):
 
         if el.tag == 'link':
             if destination.suffix == '.css' or el.attrib['rel'] == 'stylesheet':
-                retrieve_css_content(css_destination = destination, url_path = url_path, destination_dir = destination_dir, base_url = el.base_url)
+                retrieve_css_content(
+                    css_destination = destination,
+                    url_path = url_path,
+                    destination_dir = destination_dir,
+                    base_url = el.base_url
+                    )
             
 
 def retrieve_css_content(css_destination, url_path, destination_dir, base_url):

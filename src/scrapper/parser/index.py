@@ -3,7 +3,31 @@
 
 from utils import *
 
-@tpl
+def create_tpl_for_body(i, el):
+    
+
+    if i == 2:
+        # MENU
+        assert el.text.strip() == 'Menu'
+        return
+
+    if i == 3:
+
+        move_to_tpl(el, 'index/menu.php')
+        return
+
+    if i == 4:
+        # CONTENT
+        assert el.text.strip() == 'Content'
+        return
+
+    if i == 5:
+        for i, sub_el in enumerate(el):
+            create_tpl_for_content(i, sub_el)
+        
+        return
+
+
 def create_tpl_for_content(i, element):
 
         if i == 0:
@@ -16,9 +40,11 @@ def create_tpl_for_content(i, element):
 
             assert len(element) == 1
 
-            sub_element = element[0]
+            #  pozor, projíždím potomka element[0]
+            for i, sub_el in enumerate(element[0]):
+                create_tpl_for_content_content(i, sub_el)
 
-            create_tpl_for_content_content(sub_element, element)
+            move_to_tpl(element, 'index/content_content.php')
             return
 
         if i == 2:
@@ -69,7 +95,6 @@ def create_tpl_for_content(i, element):
             return
 
 
-@tpl
 def create_tpl_for_content_content(i, element):
     
             
@@ -89,11 +114,14 @@ def create_tpl_for_content_content(i, element):
 
     if i == 5:
         assert len(element) == 6
-        create_tpl_for_content_content_block(element)
+
+        for i, sub_el in enumerate(element):
+                create_tpl_for_content_content_block(i, sub_el)
+        
+        move_to_tpl(element, 'index/content_content_block.php')
         return
         
 
-@tpl
 def create_tpl_for_content_content_block(i, element):
     
 
@@ -111,12 +139,20 @@ def create_tpl_for_content_content_block(i, element):
 
     if i == 3:
         assert len(element) == 3
-        create_tpl_for_content_content_block_row_1(element)
+
+        for i, sub_el in enumerate(element):
+                create_tpl_for_content_content_block_row_1(i, sub_el)
+        
+        move_to_tpl(element, 'index/content_content_block_row_1.php')
         return
         
     if i == 4:
         assert len(element) == 3
-        create_tpl_for_content_content_block_row_2(element)
+        
+        for i, sub_el in enumerate(element):
+                create_tpl_for_content_content_block_row_2(i, sub_el)
+        
+        move_to_tpl(element, 'index/content_content_block_row_2.php')
         return
 
     if i == 5:
@@ -125,8 +161,6 @@ def create_tpl_for_content_content_block(i, element):
         return
 
     
-
-@tpl
 def create_tpl_for_content_content_block_row_1(i, element):
    
     if i == 0:
@@ -141,8 +175,7 @@ def create_tpl_for_content_content_block_row_1(i, element):
     if i == 2:
         move_to_tpl(element, 'index/soutez_musime_to_uklidit.php')
         return
-
-@tpl   
+   
 def create_tpl_for_content_content_block_row_2(i, element):
     
     if i == 0:

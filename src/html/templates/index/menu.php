@@ -60,7 +60,7 @@
 						</li>
 					
 					<li class="hidden-xs">
-<a href="http://www.zmapujto.cz" target="_blank" style="padding-top: 10px; padding-bottom: 5px;"><img style="" src="http://res.cloudinary.com/uklidmecesko/image/upload/c_thumb,w_29/v1414866657/zmapujto-logo-krivky-50_akh4jy.png"></a><!-- ,e_grayscale -->
+<a href="http://www.zmapujto.cz" target="_blank" style="padding-top: 10px; padding-bottom: 5px;"><img style="" src="/images/zmapujto-logo-krivky-50.png"></a><!-- ,e_grayscale -->
                      </li>
 
 					<li class="hidden-xs">

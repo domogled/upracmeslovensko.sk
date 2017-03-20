@@ -81,13 +81,13 @@
             var jssor_slider1 = new $JssorSlider$('slider1_container', options);
         });
     </script>
-    <?php require 'content_content_block_row_1.php'; ?>
+    <?php require 'index/content_content_block_row_1.php'; ?>
 
 
 
 
 
-        <?php require 'content_content_block_row_2.php'; ?>
+        <?php require 'index/content_content_block_row_2.php'; ?>
 
         <!--
         <div class="row">
